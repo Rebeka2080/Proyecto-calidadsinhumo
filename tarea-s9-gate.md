@@ -74,4 +74,4 @@ Scenario: Acceso denegado por formato de email inválido
 
 ## En una frase: ¿qué encontró tu rúbrica que la IA, sola, no habría visto?
 
-Que tenía casos límite completamente ausentes — las reglas de negocio sobre longitud de contraseña, trimado de espacios, formato de email y comportamiento ante múltiples intentos nunca se cuestionaron porque no estaban en el test, pero el juez los detectó como un hueco de cobertura crítico antes de que se desplegara a producción.
+Que tenía casos límite completamente ausentes — las reglas de negocio sobre longitud de contraseña, trimado de espacios, formato de email y comportamiento ante múltiples intentos nunca se cuestionaron porque no estaban en el test, pero el juez los detectó como un hueco de cobertura crítico.
