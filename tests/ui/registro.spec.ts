@@ -70,6 +70,7 @@ test.describe('Registro de Usuario', () => {
     await expect(page.getByText('Este email ya está registrado')).toBeVisible();
   });
 
+
   test.skip('CP-REG-06: Error por no cumplir con la complejidad de la contraseña', async ({ page }) => {
     // ───── ACTUAR (Act) ─────
     await page.getByLabel('Nombre completo').fill('Ana García');
